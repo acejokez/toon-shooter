@@ -1,0 +1,631 @@
+{
+    "name":  "Toon Shooter",
+    "description":  "Toon Shooter asset pack - low-poly stylized characters, guns and environment props. Use the glTF format for web / three.js loading.",
+    "basePath":  "/assets/Toon Shooter",
+    "preview":  "/assets/Toon Shooter/Preview.jpg",
+    "totalItems":  74,
+    "formats":  {
+                    "gltf":  "glTF (recommended for three.js / web)",
+                    "fbx":  "FBX (for DCC tools / animation pipelines)",
+                    "obj":  "OBJ + MTL (static geometry)",
+                    "blend":  "Blender source files"
+                },
+    "categories":  {
+                       "characters":  {
+                                          "label":  "Characters",
+                                          "count":  3,
+                                          "items":  [
+                                                        {
+                                                            "name":  "Character_Enemy",
+                                                            "gltf":  "/assets/Toon Shooter/Characters/glTF/Character_Enemy.gltf",
+                                                            "fbx":  "/assets/Toon Shooter/Characters/FBX/Character_Enemy.fbx",
+                                                            "obj":  "/assets/Toon Shooter/Characters/OBJ/Character_Enemy.obj",
+                                                            "mtl":  "/assets/Toon Shooter/Characters/OBJ/Character_Enemy.mtl",
+                                                            "blend":  "/assets/Toon Shooter/Characters/Blends/Character_Enemy.blend"
+                                                        },
+                                                        {
+                                                            "name":  "Character_Hazmat",
+                                                            "gltf":  "/assets/Toon Shooter/Characters/glTF/Character_Hazmat.gltf",
+                                                            "fbx":  "/assets/Toon Shooter/Characters/FBX/Character_Hazmat.fbx",
+                                                            "obj":  "/assets/Toon Shooter/Characters/OBJ/Character_Hazmat.obj",
+                                                            "mtl":  "/assets/Toon Shooter/Characters/OBJ/Character_Hazmat.mtl",
+                                                            "blend":  "/assets/Toon Shooter/Characters/Blends/Character_Hazmat.blend"
+                                                        },
+                                                        {
+                                                            "name":  "Character_Soldier",
+                                                            "gltf":  "/assets/Toon Shooter/Characters/glTF/Character_Soldier.gltf",
+                                                            "fbx":  "/assets/Toon Shooter/Characters/FBX/Character_Soldier.fbx",
+                                                            "obj":  "/assets/Toon Shooter/Characters/OBJ/Character_Soldier.obj",
+                                                            "mtl":  "/assets/Toon Shooter/Characters/OBJ/Character_Soldier.mtl",
+                                                            "blend":  "/assets/Toon Shooter/Characters/Blends/Character_Soldier.blend"
+                                                        }
+                                                    ]
+                                      },
+                       "guns":  {
+                                    "label":  "Guns",
+                                    "count":  16,
+                                    "items":  [
+                                                  {
+                                                      "name":  "AK",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/AK.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/AK.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/AK.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/AK.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/AK.blend"
+                                                  },
+                                                  {
+                                                      "name":  "FireGrenade",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/FireGrenade.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/FireGrenade.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/FireGrenade.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/FireGrenade.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/FireGrenade.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Grenade",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Grenade.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Grenade.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Grenade.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Grenade.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Grenade.blend"
+                                                  },
+                                                  {
+                                                      "name":  "GrenadeLauncher",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/GrenadeLauncher.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/GrenadeLauncher.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/GrenadeLauncher.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/GrenadeLauncher.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/GrenadeLauncher.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Knife_1",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Knife_1.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Knife_1.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Knife_1.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Knife_1.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Knife_1.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Knife_2",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Knife_2.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Knife_2.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Knife_2.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Knife_2.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Knife_2.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Pistol",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Pistol.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Pistol.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Pistol.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Pistol.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Pistol.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Revolver",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Revolver.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Revolver.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Revolver.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Revolver.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Revolver.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Revolver_Small",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Revolver_Small.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Revolver_Small.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Revolver_Small.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Revolver_Small.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Revolver_Small.blend"
+                                                  },
+                                                  {
+                                                      "name":  "RocketLauncher",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/RocketLauncher.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/RocketLauncher.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/RocketLauncher.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/RocketLauncher.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/RocketLauncher.blend"
+                                                  },
+                                                  {
+                                                      "name":  "ShortCannon",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/ShortCannon.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/ShortCannon.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/ShortCannon.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/ShortCannon.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/ShortCannon.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Shotgun",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Shotgun.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Shotgun.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Shotgun.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Shotgun.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Shotgun.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Shovel",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Shovel.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Shovel.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Shovel.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Shovel.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Shovel.blend"
+                                                  },
+                                                  {
+                                                      "name":  "SMG",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/SMG.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/SMG.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/SMG.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/SMG.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/SMG.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Sniper",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Sniper.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Sniper.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Sniper.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Sniper.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Sniper.blend"
+                                                  },
+                                                  {
+                                                      "name":  "Sniper_2",
+                                                      "gltf":  "/assets/Toon Shooter/Guns/glTF/Sniper_2.gltf",
+                                                      "fbx":  "/assets/Toon Shooter/Guns/FBX/Sniper_2.fbx",
+                                                      "obj":  "/assets/Toon Shooter/Guns/OBJ/Sniper_2.obj",
+                                                      "mtl":  "/assets/Toon Shooter/Guns/OBJ/Sniper_2.mtl",
+                                                      "blend":  "/assets/Toon Shooter/Guns/Blends/Sniper_2.blend"
+                                                  }
+                                              ]
+                                },
+                       "environment":  {
+                                           "label":  "Environment",
+                                           "count":  55,
+                                           "items":  [
+                                                         {
+                                                             "name":  "Barrier_Fixed",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Barrier_Fixed.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Barrier_Fixed.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Fixed.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Fixed.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Barrier_Fixed.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Barrier_Large",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Barrier_Large.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Barrier_Large.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Large.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Large.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Barrier_Large.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Barrier_Single",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Barrier_Single.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Barrier_Single.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Single.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Single.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Barrier_Single.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Barrier_Trash",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Barrier_Trash.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Barrier_Trash.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Trash.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Barrier_Trash.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Barrier_Trash.blend"
+                                                         },
+                                                         {
+                                                             "name":  "BearTrap_Closed",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/BearTrap_Closed.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/BearTrap_Closed.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/BearTrap_Closed.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/BearTrap_Closed.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/BearTrap_Closed.blend"
+                                                         },
+                                                         {
+                                                             "name":  "BearTrap_Open",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/BearTrap_Open.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/BearTrap_Open.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/BearTrap_Open.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/BearTrap_Open.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/BearTrap_Open.blend"
+                                                         },
+                                                         {
+                                                             "name":  "BrickWall_1",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/BrickWall_1.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/BrickWall_1.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/BrickWall_1.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/BrickWall_1.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/BrickWall_1.blend"
+                                                         },
+                                                         {
+                                                             "name":  "BrickWall_2",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/BrickWall_2.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/BrickWall_2.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/BrickWall_2.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/BrickWall_2.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/BrickWall_2.blend"
+                                                         },
+                                                         {
+                                                             "name":  "CardboardBoxes_1",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/CardboardBoxes_1.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/CardboardBoxes_1.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_1.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_1.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/CardboardBoxes_1.blend"
+                                                         },
+                                                         {
+                                                             "name":  "CardboardBoxes_2",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/CardboardBoxes_2.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/CardboardBoxes_2.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_2.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_2.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/CardboardBoxes_2.blend"
+                                                         },
+                                                         {
+                                                             "name":  "CardboardBoxes_3",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/CardboardBoxes_3.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/CardboardBoxes_3.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_3.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_3.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/CardboardBoxes_3.blend"
+                                                         },
+                                                         {
+                                                             "name":  "CardboardBoxes_4",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/CardboardBoxes_4.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/CardboardBoxes_4.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_4.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/CardboardBoxes_4.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/CardboardBoxes_4.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Container_Long",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Container_Long.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Container_Long.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Container_Long.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Container_Long.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Container_Long.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Container_Small",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Container_Small.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Container_Small.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Container_Small.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Container_Small.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Container_Small.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Crate",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Crate.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Crate.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Crate.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Crate.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Crate.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Debris_BrokenCar",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Debris_BrokenCar.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Debris_BrokenCar.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Debris_BrokenCar.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Debris_BrokenCar.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Debris_BrokenCar.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Debris_Papers_1",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Debris_Papers_1.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Debris_Papers_1.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Debris_Papers_1.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Debris_Papers_1.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Debris_Papers_1.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Debris_Papers_2",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Debris_Papers_2.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Debris_Papers_2.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Debris_Papers_2.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Debris_Papers_2.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Debris_Papers_2.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Debris_Papers_3",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Debris_Papers_3.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Debris_Papers_3.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Debris_Papers_3.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Debris_Papers_3.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Debris_Papers_3.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Debris_Pile",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Debris_Pile.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Debris_Pile.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Debris_Pile.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Debris_Pile.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Debris_Pile.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Debris_Tires",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Debris_Tires.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Debris_Tires.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Debris_Tires.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Debris_Tires.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Debris_Tires.blend"
+                                                         },
+                                                         {
+                                                             "name":  "ExplodingBarrel",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/ExplodingBarrel.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/ExplodingBarrel.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/ExplodingBarrel.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/ExplodingBarrel.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/ExplodingBarrel.blend"
+                                                         },
+                                                         {
+                                                             "name":  "ExplodingBarrel_Spilled",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/ExplodingBarrel_Spilled.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/ExplodingBarrel_Spilled.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/ExplodingBarrel_Spilled.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/ExplodingBarrel_Spilled.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/ExplodingBarrel_Spilled.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Fence",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Fence.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Fence.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Fence.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Fence.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Fence.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Fence_Long",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Fence_Long.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Fence_Long.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Fence_Long.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Fence_Long.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Fence_Long.blend"
+                                                         },
+                                                         {
+                                                             "name":  "GasCan",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/GasCan.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/GasCan.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/GasCan.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/GasCan.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/GasCan.blend"
+                                                         },
+                                                         {
+                                                             "name":  "GasTank",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/GasTank.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/GasTank.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/GasTank.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/GasTank.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/GasTank.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Health",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Health.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Health.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Health.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Health.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Health.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Key",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Key.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Key.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Key.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Key.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Key.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Landmine",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Landmine.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Landmine.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Landmine.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Landmine.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Landmine.blend"
+                                                         },
+                                                         {
+                                                             "name":  "MetalFence",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/MetalFence.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/MetalFence.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/MetalFence.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/MetalFence.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/MetalFence.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Pallet",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Pallet.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Pallet.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Pallet.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Pallet.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Pallet.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Pallet_Broken",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Pallet_Broken.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Pallet_Broken.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Pallet_Broken.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Pallet_Broken.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Pallet_Broken.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Pipes",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Pipes.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Pipes.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Pipes.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Pipes.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Pipes.blend"
+                                                         },
+                                                         {
+                                                             "name":  "SackTrench",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/SackTrench.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/SackTrench.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/SackTrench.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/SackTrench.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/SackTrench.blend"
+                                                         },
+                                                         {
+                                                             "name":  "SackTrench_Small",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/SackTrench_Small.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/SackTrench_Small.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/SackTrench_Small.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/SackTrench_Small.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/SackTrench_Small.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Sign",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Sign.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Sign.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Sign.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Sign.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Sign.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Sofa",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Sofa.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Sofa.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Sofa.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Sofa.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Sofa.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Sofa_Small",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Sofa_Small.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Sofa_Small.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Sofa_Small.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Sofa_Small.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Sofa_Small.blend"
+                                                         },
+                                                         {
+                                                             "name":  "StreetLight",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/StreetLight.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/StreetLight.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/StreetLight.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/StreetLight.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/StreetLight.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Structure_1",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Structure_1.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Structure_1.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Structure_1.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Structure_1.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Structure_1.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Structure_2",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Structure_2.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Structure_2.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Structure_2.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Structure_2.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Structure_2.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Structure_3",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Structure_3.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Structure_3.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Structure_3.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Structure_3.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Structure_3.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Structure_4",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Structure_4.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Structure_4.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Structure_4.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Structure_4.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Structure_4.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Tank",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Tank.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Tank.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Tank.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Tank.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Tank.blend"
+                                                         },
+                                                         {
+                                                             "name":  "TrafficCone",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/TrafficCone.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/TrafficCone.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/TrafficCone.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/TrafficCone.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/TrafficCone.blend"
+                                                         },
+                                                         {
+                                                             "name":  "TrashContainer",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/TrashContainer.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/TrashContainer.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/TrashContainer.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/TrashContainer.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/TrashContainer.blend"
+                                                         },
+                                                         {
+                                                             "name":  "TrashContainer_Open",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/TrashContainer_Open.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/TrashContainer_Open.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/TrashContainer_Open.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/TrashContainer_Open.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/TrashContainer_Open.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Tree_1",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Tree_1.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Tree_1.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Tree_1.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Tree_1.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Tree_1.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Tree_2",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Tree_2.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Tree_2.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Tree_2.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Tree_2.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Tree_2.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Tree_3",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Tree_3.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Tree_3.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Tree_3.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Tree_3.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Tree_3.blend"
+                                                         },
+                                                         {
+                                                             "name":  "Tree_4",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/Tree_4.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/Tree_4.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/Tree_4.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/Tree_4.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/Tree_4.blend"
+                                                         },
+                                                         {
+                                                             "name":  "WaterTank_Floor",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/WaterTank_Floor.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/WaterTank_Floor.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/WaterTank_Floor.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/WaterTank_Floor.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/WaterTank_Floor.blend"
+                                                         },
+                                                         {
+                                                             "name":  "WaterTank_Platform",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/WaterTank_Platform.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/WaterTank_Platform.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/WaterTank_Platform.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/WaterTank_Platform.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/WaterTank_Platform.blend"
+                                                         },
+                                                         {
+                                                             "name":  "WoodPlanks",
+                                                             "gltf":  "/assets/Toon Shooter/Environment/glTF/WoodPlanks.gltf",
+                                                             "fbx":  "/assets/Toon Shooter/Environment/FBX/WoodPlanks.fbx",
+                                                             "obj":  "/assets/Toon Shooter/Environment/OBJ/WoodPlanks.obj",
+                                                             "mtl":  "/assets/Toon Shooter/Environment/OBJ/WoodPlanks.mtl",
+                                                             "blend":  "/assets/Toon Shooter/Environment/Blends/WoodPlanks.blend"
+                                                         }
+                                                     ]
+                                       }
+                   },
+    "textures":  [
+                     {
+                         "name":  "Fence",
+                         "path":  "/assets/Toon Shooter/Texture/Fence.png"
+                     }
+                 ]
+}

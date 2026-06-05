@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toon Shooter</title>
+    <link rel="stylesheet" href="/src/ui/styles.css" />
+  </head>
+  <body>
+    <!-- 16:9 split-viewport frame: gameplay canvas left, dashboard right (TDD §3.4) -->
+    <div id="app">
+      <div id="stage">
+        <div id="canvas-container"></div>
+
+        <!-- In-run HUD overlay (left) -->
+        <div id="hud" class="hud hidden">
+          <div class="hud-top">
+            <div class="portrait">SCAVENGER</div>
+            <div class="bars">
+              <div class="bar-row">
+                <span class="bar-label">HP</span>
+                <div class="bar"><div id="hp-fill" class="bar-fill hp"></div></div>
+              </div>
+              <div class="bar-row">
+                <span class="bar-label">AP</span>
+                <div class="bar"><div id="ap-fill" class="bar-fill ap"></div></div>
+              </div>
+            </div>
+          </div>
+          <div class="hud-stats">
+            <div>TRAVELLED: <span id="stat-distance">0</span>m</div>
+            <div>STREAK KILLS: <span id="stat-streak">0</span></div>
+            <div>SCRAP: <span id="stat-scrap">0</span></div>
+            <div>WEAPON: <span id="stat-weapon">Pistol</span></div>
+          </div>
+        </div>
+
+        <!-- Screen-effect overlays -->
+        <div id="flash-overlay"></div>
+        <div id="float-layer"></div>
+
+        <!-- Loading / Menu / Game-over screens -->
+        <div id="screen" class="screen">
+          <div id="screen-content"></div>
+        </div>
+
+        <!-- Bottom control strip -->
+        <footer id="controls">
+          <span>[SPACE] JUMP</span><span>[CTRL] SNEAK</span>
+          <span>[MOUSE1] ATTACK</span><span>[1-3] SWAP WEAPON</span>
+        </footer>
+      </div>
+
+      <!-- Right dashboard panel -->
+      <aside id="dashboard">
+        <div id="shop-panel"></div>
+      </aside>
+    </div>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
